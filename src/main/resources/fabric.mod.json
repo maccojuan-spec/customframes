@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "customframes",
+  "version": "${version}",
+  "name": "Custom Frames",
+  "description": "Cuadros que muestran imagenes de tu PC, con tamano elegible. Las imagenes se guardan en el servidor y todos las ven.",
+  "authors": ["Tu nombre"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.customframes.CustomFramesMod"],
+    "client": ["com.customframes.client.CustomFramesClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": ">=1.21.9 <=1.21.10",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

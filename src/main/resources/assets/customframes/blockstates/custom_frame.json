@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "customframes:block/custom_frame" },
+    "facing=east":  { "model": "customframes:block/custom_frame", "y": 90 },
+    "facing=south": { "model": "customframes:block/custom_frame", "y": 180 },
+    "facing=west":  { "model": "customframes:block/custom_frame", "y": 270 }
+  }
+}
